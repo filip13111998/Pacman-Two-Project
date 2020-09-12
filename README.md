@@ -10,7 +10,7 @@ Zavrsen pakman2 projekat iz predmeta Osnovi Racunarske Inteligencije(ORI).
   ```python
   python capture.py --help
   ```
-##### Postoje četiri agenta, 0 i 2 su uvek crveni tim, dok su 1 i 3 plavi tim. Agenti se kreiraju pomoću fabrika, jedna za crveni i jedna za plavi tim. Pomoću sledeće komande ##### možete birati koji agenti će biti crveni i plavi tim.
+##### Postoje četiri agenta, 0 i 2 su uvek crveni tim, dok su 1 i 3 plavi tim. Agenti se kreiraju pomoću fabrika, jedna za crveni i jedna za plavi tim. Pomoću sledeće komande možete birati koji agenti će biti crveni i plavi tim.
   ```python
   python capture.py -r baselineTeam -b baselineTeam
   ```
@@ -19,7 +19,7 @@ Zavrsen pakman2 projekat iz predmeta Osnovi Racunarske Inteligencije(ORI).
   python capture.py --keys0
   ```
 ### Mape
-##### Osnovna mapa koja se koristi je defaultcapture. Ukoliko želite da promenite mapu koristite -l agrument. Mape možete generisati na slučajan način tako što kao vrednost -l ##### argumenta prosledite RANDOM[seed] (npr. -l RANDOM2 će kreirati mapu sa seed-om 2).
+##### Osnovna mapa koja se koristi je defaultcapture. Ukoliko želite da promenite mapu koristite -l agrument. Mape možete generisati na slučajan način tako što kao vrednost -l  argumenta prosledite RANDOM[seed] (npr. -l RANDOM2 će kreirati mapu sa seed-om 2).
 
 ### Snimanje partije
   Postoji mogućnost snimanja partije, za to koristite --record opciju. Igra će biti sačuvana u datoteku, nakon čega možete tu partiju ponovo pustiti pomoću --replay opcije.
