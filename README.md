@@ -1,7 +1,7 @@
 # Pacman-Two-Project
 Zavrsen pakman2 projekat iz predmeta Osnovi Racunarske Inteligencije(ORI).
 
-## Pokretanje igre¶
+## Pokretanje igre
 ##### Igru možete sa datim baseline timom pokrenuti sa sledećom komandom:
   ```python
   python capture.py
